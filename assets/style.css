@@ -1,0 +1,63 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: pink;
+    font-weight: 300;
+}
+
+header {
+    background: grey;
+}
+
+img{
+    width: 50px;
+    border-radius: 25%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .nav li {
+    float: right;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    margin-left: 30px;
+
+  }
+
+  /* Change the link color to black on hover */
+  .nav li a:hover {
+    color: black;
+  }
+
+  #about {
+    display: block;
+    float: center;
+  }
