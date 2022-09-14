@@ -33,15 +33,15 @@ img{
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
 
-  .nav a {
+.nav a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-  }
+}
 
-  .nav li {
+.nav li {
     float: right;
     display: block;
     color: grey;
@@ -49,15 +49,14 @@ img{
     padding: 15px;
     text-decoration: none;
     margin-left: 30px;
+}
 
-  }
-
-  /* Change the link color to black on hover */
-  .nav li a:hover {
+/* Change the link color to black on hover */
+.nav li a:hover {
     color: black;
-  }
+}
 
-  #about {
+#about {
     display: block;
     float: center;
-  }
+}
