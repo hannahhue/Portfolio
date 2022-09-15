@@ -26,6 +26,7 @@ header {
     border-radius: 25%;
 }
 
+/* navigation, location and asetetics */
 .nav {
     font-size: 20px;
     list-style-type: none;
@@ -119,6 +120,7 @@ figure figcaption {
 }
 .web-ex:hover{
     opacity: 0.3;
+    width: 55%;
 }
 
 ul {
