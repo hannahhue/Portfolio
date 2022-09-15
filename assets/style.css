@@ -104,7 +104,7 @@ h2 {
     margin-top: 60px;
 }
 
-/* work img */
+/* imgs */
 .web-ex {
     width: 50%;
     border-radius: 5%;
@@ -113,16 +113,19 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* centre captions and space */
 figure figcaption {
     margin-top: 30px;
     text-align: center;
 }
+
+/* transparent overlay plus increase size when hovered */
 .web-ex:hover{
     opacity: 0.3;
     width: 55%;
 }
 
+/* all lists size apearacne location */
 ul {
     list-style: none;
     text-align: center;
