@@ -11,6 +11,7 @@ No installation required.
 ## Usage
 
 link to live site:
+https://hannahhue.github.io/Portfolio/
 
 ![when you first open](\assets\images\launched1.PNG)
 
