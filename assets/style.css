@@ -133,3 +133,9 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer ul {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
