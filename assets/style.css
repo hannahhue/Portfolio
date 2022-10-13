@@ -1,141 +1,73 @@
-/* universal + body*/
+/* universal */
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Noto Sans Mono", monospace;
 }
 
-body {
-    margin: 0;
-    background-color: pink;
-    font-weight: 300;
+/* nav bar */
+#navbarNav {
+  justify-content: end;
 }
 
-/* header, grey logo assign locations */
-header {
-    background: grey;
+/* headers */
+#infobar {
+  justify-content: right;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+#headTopic {
+  justify-content: center;
 }
 
-.logo {
-    float: left;
-    margin-left: 30px;
-    width: 50px;
-    border-radius: 25%;
+#workbar {
+  justify-content: center;
 }
 
-/* navigation, location and asetetics */
-.nav {
-    font-size: 20px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+/* heading */
+#backimg {
+  height: 900px;
 }
 
-.nav a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+/* about me */
+#pfp {
+  justify-content: left;
+  width: 250px;
+  height: 300px;
+  border: 5px solid #e54bf2;
+  border-style: outset;
+  margin-top: 100px;
 }
 
-.nav li {
-    float: right;
-    display: block;
-    color: grey;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    margin-left: 30px;
+.media-body-about {
+  margin-left: 50px;
+  margin-top: 200px;
 }
 
-/* Change the link color to black on hover */
-.nav li a:hover {
-    color: black;
+/* skills */
+#skillimg {
+  justify-content: left;
+  width: 400px;
+  height: 250px;
+  border: 5px solid #e54bf2;
+  border-style: outset;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-/* hannah hughes header */
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.media-body-skill {
+  justify-content: left;
+  margin-top: 160px;
 }
 
-/* pfp / bio*/
-.pfp {
-    width: 200px;
-    margin-top: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25%;
+/* work cards */
+.card {
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 5px;
+  display: inline-flex;
+  margin-bottom: 70px;
 }
 
-#about p {
-    margin-top: 60px;
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* my work */
-h2 {
-    text-align: center;
-    margin-top: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px;
-    border-style: solid gray;
-    background-color: gray;
-    padding: 20px;
-}
-
-.sum {
-    text-align: center;
-    display: block; ;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-}
-
-/* imgs */
-.web-ex {
-    width: 50%;
-    border-radius: 5%;
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* centre captions and space */
-figure figcaption {
-    margin-top: 30px;
-    text-align: center;
-}
-
-/* transparent overlay plus increase size when hovered */
-.web-ex:hover{
-    opacity: 0.3;
-    width: 55%;
-}
-
-/* all lists size apearacne location */
-ul {
-    list-style: none;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer ul {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    font-size: 25px;
+.card:hover {
+  transform: scale(1.02) perspective(0px);
+  box-shadow: 0 10px 10px rgba(255, 0, 0, 0.7);
 }

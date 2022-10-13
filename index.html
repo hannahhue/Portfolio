@@ -4,81 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link />
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    <title>Hannah's Portfolio</title>
+    <title>Hannah Hughes Portfolio</title>
 </head>
 <body>
-<!-- header-->
-    <header>
-     <article class="container"></article>
-     <!-- img -->
-        <img src="assets/images/pixart.png" alt="logo" class="logo">
-     <!-- navigation and icon-->
-        <ul class="nav">
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#about">About</a></li>
+<!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 class="navbar-brand">Portfolio</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <!-- home/refresh -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Information</a>
+          </li>
+          <!-- recc topics -->
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <!-- search history -->
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
-     </article>
+      </div>
+    </nav>
+
+<!-- header img -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img id="backimg" class="w3-image" src="assets/images/headerimg.png" alt="flowerbackground" width="2000" height="1000">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Hannah</b></span> <span class="w3-hide-small w3-text-black">Hughes</span></h1>
+    </div>
     </header>
 
-<!-- body -->
+    <!-- header info -->
     <main>
-        <!-- name and about me -->
         <section id="about">
-            <h1><a>Hannah Hughes</a></h1>
-         <figure class = card>
-            <img src="assets/images/pfppp.jpg" alt="plain pfp" class = "pfp">
-            <p>Helloo~ Names Hannah, I am 21 and currently a student and an aspiring web developer! Born and raised in Windsor, ON. My current hobbies are playing video games and reading! If you were to ask me if I saw myself pursuing this career 5 years ago, I probably would have said no. Last year I was a full time
-                 machine shop worker and thought I was going to grow old within the trades. Now I would say Ive never been more excited to not just try something new but see new sights and meet new people. Watch me and this Portfolio grow within this industry!</p>
-         </figure>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                  <h2 id="infobar"class="navbar-brand" href="#">Information</h2>
+                </div>
+            </nav>
         </section>
-        <!-- work and examples -->
-        <section id="work">
-            <h2><a>My Work</a></h2>
-          <section class = sum>
-            <p> Here are some programs ive been working on so far that I cant wait to show you!</p>
-            <p>Want to see the code? Click the image and inspect!</p>
-          </section>
-        </section>
-        <!-- ex 1 horizon web page, editing down code -->
-        <figure>
-            <a href="https://abedhasan79.github.io/Learning-My-Way/">
-            <img src="assets/images/learn-myway.png" alt="webapp of learn my way" class = "web-ex">
-            </a>
-            <figcaption>Third Party API's: with a team, creating a whole application that can teach you about anything!</figcaption>
-         </figure>
-            <figure>
-                <a href="https://hannahhue.github.io/module-one-challenge/">
-                <img src="assets/images/horizon.web.PNG" alt="horizon webpage" class = "web-ex">
-                </a>
-                <figcaption>Editing Horiseon Code: When givin a mess of code, we clean and compress!</figcaption>
-             </figure>
-             <!-- pre work study guide page -->
-             <figure>
-                <a href="https://hannahhue.github.io/prework-study-guide/">
-                <img src="assets/images/study-guide.PNG" alt="Study webpage" class = "web-ex">
-                </a>
-                <figcaption>Very first webpage: some important notes!</figcaption>
-             </figure>
-             <!-- javascript example -->
-             <figure>
-                <a href="https://hannahhue.github.io/js-ex/">
-                <img src="assets/images/js-coffee-order.PNG" alt="JavaScript code + output" class = "web-ex">
-                </a>
-                <figcaption>Javascript: creating a fake coffee order and the console outputs.</figcaption>
-             </figure>
-             
-        </section>
+        <!-- about me img and bio -->
+        <div class="media">
+            <img src="assets/images/pfp.webp" id="pfp" class="align-self-center mr-3" alt="me">
+            <div class="media-body-about">
+              <h5 class="mt-0">About Me</h5>
+              <p>Helloo! I am 21 and currently a student within the UOT Full Stack Dev bootcamp and an aspiring web developer.</p>
+              <p class="mb-0">Located in Windsor, ON, Canada.</p>
+            </div>
+          </div>
+
+          <!-- skills img and bio -->
+        <div class="media">
+            <img src="assets/images/skills.png" id="skillimg" class="align-self-center mr-3" alt="skills">
+            <div class="media-body-skill">
+                <h5>Skills</h5>
+                <p>HTML</p>
+                <p>CSS</p>
+                <P>JavaScript</P>
+            </div>
+        </div>
     </main>
+        <!-- work header -->
+    <section id="work">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <h2 id="workbar" class="navbar-brand" href="#">Work</h2>
+            </div>
+        </nav>
+    </section>
+
+    <!-- work cards -->
+    <article>
+        <div class="row container-fluid d-flex justify-content-center cards">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/images/learn-myway.png" class="card-img-top" alt="webapp of learn my way">
+            <div class="card-body">
+              <h5 class="card-title">Learning-My-Way</h5>
+              <p class="card-text">Team built Project, using third party API's to create an application that can teach you about anything!</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/tem-gen.png" class="card-img-top" alt="teamgen">
+            <div class="card-body">
+              <h5 class="card-title">Team Generator</h5>
+              <p class="card-text">Answer the terminal propts and create a HTML file that will produce a team lineup!</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/readme.png" class="card-img-top" alt="readme">
+            <div class="card-body">
+              <h5 class="card-title">README Generator</h5>
+              <p class="card-text">Answer terminal prompts to quickly create a professional README.md</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <img src="assets/images/codequiz.png" class="card-img-top" alt="codequiz">
+            <div class="card-body">
+              <h5 class="card-title">Code Quiz</h5>
+              <p class="card-text">Test your skills with a timed quiz all about coding!</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          </div>
+    </article>
+        <!-- contact header -->
+    <section id="contact">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <h2 id="contactbar"class="navbar-brand" href="#">Contact Me</h2>
+            </div>
+        </nav>
+        <ul>
+            <li><a href="mailto:alicia9790972@gmail.com" </a> <strong>Email</strong> </li>
+            <li><a href="https://github.com/hannahhue" </a> <strong>Github</strong> </li>
+         </ul>
+    <section>
 </body>
-<!-- contact info and bars -->
-<footer id="contact">
-    <h2>Contact me</h2>
-    <ul>
-        <li><a href="mailto:alicia9790972@gmail.com"</a> <strong>Email</strong> </li>
-        <li><a href="https://github.com/hannahhue"</a> <strong>Github</strong> </li>
-    </ul>
+<footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <h2 class="navbar-brand">&copy; 2022. Made with &#10084; by Hannah Hughes</h2>
+        </div>
+    </nav>
 </footer>
 </html>
