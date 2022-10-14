@@ -8,6 +8,11 @@
   justify-content: end;
 }
 
+.navbar-brand {
+    justify-content: left;
+    align-items: left;
+}
+
 /* headers */
 #infobar {
   justify-content: right;
@@ -24,6 +29,8 @@
 /* heading */
 #backimg {
   height: 900px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* about me */
@@ -33,7 +40,7 @@
   height: 300px;
   border: 5px solid #e54bf2;
   border-style: outset;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .media-body-about {
