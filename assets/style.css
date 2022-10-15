@@ -14,8 +14,10 @@
 }
 
 /* headers */
-#infobar {
+#about {
   justify-content: right;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 #headTopic {
@@ -77,4 +79,8 @@
 .card:hover {
   transform: scale(1.02) perspective(0px);
   box-shadow: 0 10px 10px rgba(255, 0, 0, 0.7);
+}
+
+.btn {
+    margin-top: 10px;
 }
