@@ -3,6 +3,10 @@
   font-family: "Noto Sans Mono", monospace;
 }
 
+body {
+    background-color: #faebf9
+}
+
 /* nav bar */
 #navbarNav {
   justify-content: end;
@@ -13,21 +17,6 @@
     align-items: left;
 }
 
-/* headers */
-#about {
-  justify-content: center;
-  margin-left: 0px;
-  padding: 0px;
-}
-
-#headTopic {
-  justify-content: center;
-}
-
-#workbar {
-  justify-content: center;
-}
-
 /* heading */
 #backimg {
   height: 900px;
@@ -35,36 +24,6 @@
   margin-bottom: 50px;
 }
 
-/* about me */
-#pfp {
-  justify-content: left;
-  width: 250px;
-  height: 300px;
-  border: 5px solid #e54bf2;
-  border-style: outset;
-  margin-top: 50px;
-}
-
-.media-body-about {
-  margin-left: 50px;
-  margin-top: 200px;
-}
-
-/* skills */
-#skillimg {
-  justify-content: left;
-  width: 400px;
-  height: 250px;
-  border: 5px solid #e54bf2;
-  border-style: outset;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.media-body-skill {
-  justify-content: left;
-  margin-top: 160px;
-}
 
 /* work cards */
 .card {
@@ -87,7 +46,9 @@
 }
 
 /* ocntact stuuf */
+
+
 .card-imgside {
-    width: 200px;
+    width: 100px;
 
 }
